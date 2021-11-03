@@ -1,47 +1,137 @@
 <!doctype html>
 <html>
     <head>
+        <!-- Nonvisible elements in this section-->
+        <!-- CSS Goes here in STYLE tags-->
         <style>
-            body {
-                background: #b6cbd4;
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
             }
-            h1 {
-                font-size: 48px;
+            header {
+                color: black;
+                background: white;
+                padding: 1rem;
                 text-align: center;
             }
-            p {
-                font-size:1.25rem;
-                line-height:2rem;
+            nav {
+                color: white;
+                background: black;
+                padding: 1rem;
             }
-            li {
-                font-size:1.25rem;
-                line-height: 2rem;
-                margin:.5rem;
-                padding:.25rem;
+            footer {
+                color: white;
+                background: black;
+                padding: 1rem;
+                min-height: 15vh;
             }
+            .container {
+                color: black;
+                background: beige;
+                padding: 1rem;
+                min-height: 80vh;
+                width: 80%;
+                margin: auto;
+            }
+            img {
+                display:block;
+                width:100%;
+            }
+            .box h3 {
+                background: maroon;
+                color: white;
+                padding: 1rem;
+            }
+            .box p {
+                padding:1rem;
+                font-size: 1.5rem;
+            }
+            .box {
+                width: 30%;
+                margin:1rem;
+                border:1px black solid;
+            }
+            
         </style>
-        <title>Web 1 Homepage</title>
+        <!-- title tag for browser tab text-->
+        <title>Rob's Web 1 Homepage</title>
     </head>
     <body>
-        <h1>My Homepage</h1>
-        <p>
-            NAME<br>
-            October 25, 2021<br>
-            Web 1, 4th Hour
-        </p>
-        <hr>
-        <h3>Basic HTML Assignments</h3>
-        <ul>
-            <li><a href="skeleton.html" target="_blank">Skeleton</a></li>
-            <li><a href="favoritemoviehtml.html" target="_blank">Favorite Movie</a></li>
-            <li><a href="htmlfavoritefood.html" target="_blank">Favorite Food</a></li>
-        </ul>
+        <header>
+            <h1>Web Design 1 Homepage</h1>
+            <p>
+                NAME<br>
+                Date<br>
+                Web 1, 4th Hour
+            </p>
+        </header>
+        <nav>
+            Nav Section
+        </nav>
+        <div class="container">
+            <!-- Main page content here-->
+            
+            <!-- Start of an assignment-->
+            <div class="box">
+                <img src="https://cdn1.epicgames.com/ue/product/Screenshot/10-1920x1080-7f5189eba1d7111bc6d12933ad0598b0.jpg?resize=1&w=1920" alt="#">
+                <h3>HTML Skeleton v1</h3>
+                <p>
+                    Basic tags needed for a HTML Page
+                    <br>
+                    <a href="skeleton.html" target="_blank">Skeleton</a>
+                </p>
+            </div>
+            <!-- End of an assignment-->
+            <!-- Start of an assignment-->
+            <div class="box">
+                <img src="#" alt="#">
+                <h3>Assignment Name</h3>
+                <p>
+                    Description of Assignment
+                </p>
+            </div>
+            <!-- End of an assignment-->
+            <!-- Start of an assignment-->
+            <div class="box">
+                <img src="#" alt="#">
+                <h3>Assignment Name</h3>
+                <p>
+                    Description of Assignment
+                </p>
+            </div>
+            <!-- End of an assignment-->
+            <!-- Start of an assignment-->
+            <div class="box">
+                <img src="#" alt="#">
+                <h3>Assignment Name</h3>
+                <p>
+                    Description of Assignment
+                    
+                </p>
+            </div>
+            <!-- End of an assignment-->
+            
+            <!-- Start of an assignment-->
+            <div class="box">
+                <img src="https://www.lifewire.com/thmb/PTafQnewnEzcq0-qu3jY6isfXWA=/1999x1124/smart/filters:no_upscale()/Whatisstreaming_-8387dbe7a61144c48f02353d395fa32a.jpg" alt="#">
+                <h3>HTML Streaming Assignment</h3>
+                <p>
+                    Page using HTML5 Tags like HEADER and FOOTER.
+                    <br>
+                    <a href="streamingpage2.html" target="_blank">Link to Streaming Page</a>
+                </p>
+            </div>
+            <!-- End of an assignment-->
+            
+            
+        </div>
+        <footer>
+            Footer
+        </footer>
         
         
         
-        
-        
-        
+        <!-- Don't delete these but do paste them -->
     </body>
-    
 </html>
